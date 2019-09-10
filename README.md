@@ -37,3 +37,30 @@ https://github.com/tamasino52/Real-time-image-based-obstacle-detection-and-ident
 6. Run 'RailwayTrackingModel_Training.ipynb' file to generate model
 7. Run 'ObstacleDetectionModel_Training.ipynb' file to generate seccond model
 8. Run 'Run.py' file or Run.ipynb  to activate project
+
+# Simulation
+<p align="center">
+  <img src="/simulation/test (1).PNG">
+</p>
+<p align="center">
+  <img src="/simulation/test (2).PNG">
+</p>
+<p align="center">
+  <img src="/simulation/test (3).PNG">
+</p>
+
+<p align="center">
+  <img src="/simulation/test (5).PNG">
+</p>
+<p align="center">
+  <img src="/simulation/test (6).PNG">
+</p>
+<p align="center">
+  <img src="/simulation/test (7).PNG">
+</p>
+<p align="center">
+  <img src="/simulation/test (8).PNG">
+</p>
+<p align="center">
+  <img src="/simulation/test (9).PNG">
+</p>
