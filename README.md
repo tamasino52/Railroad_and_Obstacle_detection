@@ -13,7 +13,8 @@ https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Trai
     
 ### We will follow the general workflow:
 1. Setting for training
-2. Training
+2. Training model
+3. Run
 
 
 **Time Estimated**: 8 hours
