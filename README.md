@@ -37,7 +37,7 @@ https://github.com/tamasino52/Real-time-image-based-obstacle-detection-and-ident
 5. Move model file to 'faster_rcnn_inception_v2_coco_2018_01_28' folder in 'models/research/object_detection'
 6. Run 'RailwayTrackingModel_Training.ipynb' file to generate model
 7. Run 'ObstacleDetectionModel_Training.ipynb' file to generate seccond model
-8. Run 'Run.py' file or Run.ipynb  to activate project
+8. Run 'Run.py' file(for video and image) or 'Run.ipynb' file(only for image)  to activate project
 
 # Simulation
 <p align="center">
