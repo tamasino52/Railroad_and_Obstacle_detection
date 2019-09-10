@@ -1,5 +1,3 @@
-# Obstacle Detection Model Traning
-
 # Project General Outline in Korean
 이 프로젝트는 **숭실대학교** 컴퓨터비전 연구를 위해 스파르탄SW사업의 지원을 받아 진행 중인 과제입니다. 프로젝트의 목적은 실전에서 당면한 과제를 다양한 딥러닝 모델을 사용함으로써 문제해결 능력과 모델에 대한 이해를 향상시키는 데에 있습니다.
  
