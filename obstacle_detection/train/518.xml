@@ -1,0 +1,38 @@
+<annotation>
+	<folder>image</folder>
+	<filename>518.jpg</filename>
+	<path>C:\Users\김민석\Desktop\Railway_Obstacle_Detection\others\new video\image\518.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tree</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>509</xmin>
+			<ymin>183</ymin>
+			<xmax>582</xmax>
+			<ymax>325</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>people</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>553</xmin>
+			<ymin>222</ymin>
+			<xmax>638</xmax>
+			<ymax>276</ymax>
+		</bndbox>
+	</object>
+</annotation>

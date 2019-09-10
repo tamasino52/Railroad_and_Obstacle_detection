@@ -1,0 +1,26 @@
+<annotation>
+	<folder>image</folder>
+	<filename>398.jpg</filename>
+	<path>C:\Users\김민석\Desktop\Railway_Obstacle_Detection\others\new video\image\398.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>404</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>people</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>278</xmin>
+			<ymin>113</ymin>
+			<xmax>390</xmax>
+			<ymax>209</ymax>
+		</bndbox>
+	</object>
+</annotation>

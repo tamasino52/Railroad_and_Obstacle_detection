@@ -1,0 +1,38 @@
+<annotation>
+	<folder>image</folder>
+	<filename>755.jpg</filename>
+	<path>C:\Users\김민석\Desktop\Railway_Obstacle_Detection\others\new video\image\755.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>box</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>120</xmin>
+			<ymin>516</ymin>
+			<xmax>342</xmax>
+			<ymax>749</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tree</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>73</xmin>
+			<ymin>250</ymin>
+			<xmax>148</xmax>
+			<ymax>389</ymax>
+		</bndbox>
+	</object>
+</annotation>

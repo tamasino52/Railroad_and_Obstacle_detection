@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>23.jpg</filename>
+	<path>C:\Users\HanSung\Desktop\Railway_Obstacle_Detection\data\train\detection\test\23.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3024</width>
+		<height>4032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>box</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1862</xmin>
+			<ymin>928</ymin>
+			<xmax>2620</xmax>
+			<ymax>2670</ymax>
+		</bndbox>
+	</object>
+</annotation>
