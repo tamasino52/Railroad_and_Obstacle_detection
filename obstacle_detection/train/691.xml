@@ -1,7 +1,7 @@
 <annotation>
-	<folder>image</folder>
+	<folder>train</folder>
 	<filename>691.jpg</filename>
-	<path>C:\Users\김민석\Desktop\Railway_Obstacle_Detection\others\new video\image\691.jpg</path>
+	<path>C:\Users\김민석\Desktop\Real-time image-based obstacle detection and identification system using deep learning on railroad tracks environments\obstacle_detection\train\691.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,28 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>people</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>569</xmin>
-			<ymin>227</ymin>
-			<xmax>599</xmax>
-			<ymax>296</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>people</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>291</xmin>
-			<ymin>259</ymin>
-			<xmax>312</xmax>
-			<ymax>314</ymax>
-		</bndbox>
-	</object>
 </annotation>

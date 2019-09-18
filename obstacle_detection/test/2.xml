@@ -1,7 +1,7 @@
 <annotation>
 	<folder>test</folder>
 	<filename>2.jpg</filename>
-	<path>C:\Users\HanSung\Desktop\Railway_Obstacle_Detection\data\train\detection\test\2.jpg</path>
+	<path>C:\Users\김민석\Desktop\Real-time image-based obstacle detection and identification system using deep learning on railroad tracks environments\obstacle_detection\test\2.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -18,8 +18,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>904</xmin>
-			<ymin>953</ymin>
-			<xmax>2079</xmax>
+			<ymin>1026</ymin>
+			<xmax>2034</xmax>
 			<ymax>2853</ymax>
 		</bndbox>
 	</object>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>data</folder>
+	<folder>train</folder>
 	<filename>69.jpg</filename>
-	<path>C:\Users\김민석\Desktop\windows_v1.6.0\data\69.jpg</path>
+	<path>C:\Users\김민석\Desktop\Real-time image-based obstacle detection and identification system using deep learning on railroad tracks environments\obstacle_detection\train\69.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,88 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>people</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1071</xmin>
-			<ymin>444</ymin>
-			<xmax>1171</xmax>
-			<ymax>487</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>box</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1143</xmin>
-			<ymin>418</ymin>
-			<xmax>1196</xmax>
-			<ymax>461</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>box</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>903</xmin>
-			<ymin>597</ymin>
-			<xmax>974</xmax>
-			<ymax>691</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>tree</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>831</xmin>
-			<ymin>490</ymin>
-			<xmax>962</xmax>
-			<ymax>662</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>tree</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>557</xmin>
-			<ymin>524</ymin>
-			<xmax>694</xmax>
-			<ymax>667</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>people</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>750</xmin>
-			<ymin>454</ymin>
-			<xmax>869</xmax>
-			<ymax>506</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>people</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>900</xmin>
-			<ymin>350</ymin>
-			<xmax>986</xmax>
-			<ymax>496</ymax>
-		</bndbox>
-	</object>
 </annotation>

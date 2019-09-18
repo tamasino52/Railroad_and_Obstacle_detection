@@ -1,7 +1,7 @@
 <annotation>
 	<folder>test</folder>
 	<filename>13.jpg</filename>
-	<path>C:\Users\HanSung\Desktop\Railway_Obstacle_Detection\data\train\detection\test\13.jpg</path>
+	<path>C:\Users\김민석\Desktop\Real-time image-based obstacle detection and identification system using deep learning on railroad tracks environments\obstacle_detection\test\13.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,9 +17,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1060</xmin>
-			<ymin>1073</ymin>
-			<xmax>1771</xmax>
+			<xmin>1133</xmin>
+			<ymin>1126</ymin>
+			<xmax>1724</xmax>
 			<ymax>1706</ymax>
 		</bndbox>
 	</object>
@@ -29,8 +29,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1982</xmin>
-			<ymin>1462</ymin>
+			<xmin>2389</xmin>
+			<ymin>1747</ymin>
 			<xmax>2738</xmax>
 			<ymax>2051</ymax>
 		</bndbox>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2626</xmin>
-			<ymin>2195</ymin>
-			<xmax>3171</xmax>
-			<ymax>2640</ymax>
+			<xmin>2670</xmin>
+			<ymin>2222</ymin>
+			<xmax>3167</xmax>
+			<ymax>2554</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -57,6 +57,18 @@
 			<ymin>6</ymin>
 			<xmax>3049</xmax>
 			<ymax>817</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>box</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2042</xmin>
+			<ymin>1519</ymin>
+			<xmax>2370</xmax>
+			<ymax>1826</ymax>
 		</bndbox>
 	</object>
 </annotation>
