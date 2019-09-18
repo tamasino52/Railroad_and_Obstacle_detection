@@ -13,7 +13,8 @@ https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Trai
     
 ### We will follow the general workflow:
 1. Setting for training
-2. Training
+2. Training model
+3. Run
 
 
 **Time Estimated**: 8 hours
@@ -36,22 +37,19 @@ https://github.com/tamasino52/Real-time-image-based-obstacle-detection-and-ident
 5. Move model file to 'faster_rcnn_inception_v2_coco_2018_01_28' folder in 'models/research/object_detection'
 6. Run 'RailwayTrackingModel_Training.ipynb' file to generate model
 7. Run 'ObstacleDetectionModel_Training.ipynb' file to generate seccond model
-8. Run 'Run.py' file or Run.ipynb  to activate project
+8. Run 'Run.py' file(for video and image) or 'Run.ipynb' file(only for image)  to activate project
 
 # Simulation
 <p align="center">
   <img src="/simulation/test (1).PNG">
 </p>
 <p align="center">
-  <img src="/simulation/test (2).PNG">
-</p>
-<p align="center">
   <img src="/simulation/test (3).PNG">
 </p>
-
 <p align="center">
   <img src="/simulation/test (5).PNG">
 </p>
+
 <p align="center">
   <img src="/simulation/test (6).PNG">
 </p>
@@ -59,8 +57,11 @@ https://github.com/tamasino52/Real-time-image-based-obstacle-detection-and-ident
   <img src="/simulation/test (7).PNG">
 </p>
 <p align="center">
-  <img src="/simulation/test (8).PNG">
+  <img src="/simulation/test (9).PNG">
 </p>
 <p align="center">
-  <img src="/simulation/test (9).PNG">
+  <img src="/simulation/test (11).PNG">
+</p>
+<p align="center">
+  <img src="/simulation/test (19).PNG">
 </p>
