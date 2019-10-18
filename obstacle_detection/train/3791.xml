@@ -1,0 +1,26 @@
+<annotation>
+	<folder>image</folder>
+	<filename>3791.jpg</filename>
+	<path>C:\Users\wldnj\Desktop\Real-time-image-based-obstacle-detection-and-identification-system-using-deep-learning-on-railroad\video\image\3791.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1372</width>
+		<height>749</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>people</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>114</xmin>
+			<ymin>303</ymin>
+			<xmax>280</xmax>
+			<ymax>471</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>image</folder>
+	<filename>2490.jpg</filename>
+	<path>C:\Users\wldnj\Desktop\Real-time-image-based-obstacle-detection-and-identification-system-using-deep-learning-on-railroad\video\image\2490.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1371</width>
+		<height>749</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tree</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>83</xmin>
+			<ymin>157</ymin>
+			<xmax>123</xmax>
+			<ymax>219</ymax>
+		</bndbox>
+	</object>
+</annotation>

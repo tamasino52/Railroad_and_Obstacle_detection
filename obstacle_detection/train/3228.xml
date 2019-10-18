@@ -1,0 +1,26 @@
+<annotation>
+	<folder>image</folder>
+	<filename>3228.jpg</filename>
+	<path>C:\Users\wldnj\Desktop\Real-time-image-based-obstacle-detection-and-identification-system-using-deep-learning-on-railroad\video\image\3228.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1369</width>
+		<height>748</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>web</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1021</xmin>
+			<ymin>246</ymin>
+			<xmax>1266</xmax>
+			<ymax>311</ymax>
+		</bndbox>
+	</object>
+</annotation>
