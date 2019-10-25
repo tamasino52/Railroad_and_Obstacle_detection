@@ -23,7 +23,7 @@ print('UTILITY MODULE PATH :: vis_util=', vis_util.__file__, ', label_map_util='
 # ## Set properties
 INPUT_SHAPE = (256, 256, 3)
 IMAGE_PATH = None
-VIDEO_PATH = './complex1.mp4'
+VIDEO_PATH = './complex7.mp4'
 WEIGHT_PATH = './railway_detection/weights.hdf5'
 MODEL_PATH = './railway_detection/model.h5'
 MODEL_NAME = 'inference_graph'
@@ -198,14 +198,21 @@ def box_to_color_map(boxes=None, scores=None, final_img=None, min_score_thresh=0
             (top, left, bottom, right) = (top.astype(np.int32), left.astype(np.int32),
                                           bottom.astype(np.int32), right.astype(np.int32))
             pixel_sum = 0.0
+
+            print('\nProperty------------------------------------')
+            print('score ', np.squeeze(scores)[i])
+            print(final_img[bottom-1][left:right])
             for bar_iter in range(left, right):
                 try:
-                    pixel_sum += final_img[bottom][bar_iter]
+                    pixel_sum += final_img[bottom-1][bar_iter]
                 except IndexError:
-                    print('index Error')
-            print('danger_score : ', pixel_sum / (right - left + 1),
-                  ' / bottom and left to right : ', bottom, ' and ', left, ' to ', right)
-            danger_score = pixel_sum / (right - left)  # Average value
+                    print('index Error :: bottom ', bottom, ' / bar_iter ', bar_iter)
+            print('im_height ', im_height, ' / im_width ', im_width)
+            print('top ', top, ' / left ', left, ' / bottom ', bottom, ' / right ', right)
+            print('xmin ', xmin, ' / xmax ', xmax, ' / ymin ', ymin, ' / ymax ', ymax)
+            print('pixel_sum ', pixel_sum, ' / average value ', pixel_sum/(right-left))
+
+            danger_score = pixel_sum / max(right - left  + 1, 1)  # Average value
             if danger_score > danger_tresh:
                 danger_color = 'blue'  # Danger color
             elif danger_score > caution_tresh:
@@ -229,7 +236,6 @@ while cap.isOpened():
     if not ret:
         break
     if frame.shape[0] > 1000:  # Downsizing
-        print('Frame size is too large, Frame will be downsized :: ', frame.shape[1]/2, ', ', frame.shape[0]/2)
         frame = cv2.resize(frame, dsize=(int(frame.shape[1]/2), int(frame.shape[0]/2)), interpolation=cv2.INTER_AREA)
     im_width, im_height = frame.shape[1], frame.shape[0]
 
@@ -249,10 +255,6 @@ while cap.isOpened():
     (boxes, scores, classes, num) = sess.run(
         [detection_boxes, detection_scores, detection_classes, num_detections],
         feed_dict={image_tensor: frame_expanded})
-
-    # Display original image and segmentation image
-    cv2.imshow('original', frame)
-    cv2.imshow('segmentation', mixed_img)
 
     # Visualize detection boxes
     vis_util.visualize_boxes_and_labels_on_image_array(
