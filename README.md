@@ -38,30 +38,41 @@ https://github.com/tamasino52/Real-time-image-based-obstacle-detection-and-ident
 6. Run 'RailwayTrackingModel_Training.ipynb' file to generate model
 7. Run 'ObstacleDetectionModel_Training.ipynb' file to generate seccond model
 8. Run 'Run.py' file(for video and image) or 'Run.ipynb' file(only for image)  to activate project
+8-1. If you want to use captured image, Run 'Run_capture.py'. After you run, Click and Drag points that you want to capture. Then check your valid yellow box, press 'esc' to activate project.
 
-# Simulation
+# Simulation Result
 <p align="center">
-  <img src="/simulation/test (1).PNG">
+  <img src="/simulation/test (1).jpg">
 </p>
 <p align="center">
-  <img src="/simulation/test (3).PNG">
+  <img src="/simulation/test (2).jpg">
 </p>
 <p align="center">
-  <img src="/simulation/test (5).PNG">
+  <img src="/simulation/test (3).jpg">
 </p>
 
 <p align="center">
-  <img src="/simulation/test (6).PNG">
+  <img src="/simulation/test (4).jpg">
 </p>
 <p align="center">
-  <img src="/simulation/test (7).PNG">
+  <img src="/simulation/test (5).jpg">
 </p>
 <p align="center">
-  <img src="/simulation/test (9).PNG">
+  <img src="/simulation/test (6).jpg">
 </p>
 <p align="center">
-  <img src="/simulation/test (11).PNG">
+  <img src="/simulation/test (7).jpg">
 </p>
 <p align="center">
-  <img src="/simulation/test (19).PNG">
+  <img src="/simulation/test (8).jpg">
 </p>
+<p align="center">
+  <img src="/simulation/test (9).jpg">
+</p>
+<p align="center">
+  <img src="/simulation/test (10).jpg">
+</p>
+<p align="center">
+  <img src="/simulation/test (11).jpg">
+</p>
+
