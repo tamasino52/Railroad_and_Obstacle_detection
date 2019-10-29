@@ -42,37 +42,36 @@ https://github.com/tamasino52/Real-time-image-based-obstacle-detection-and-ident
 
 # Simulation Result
 <p align="center">
-  <img src="/simulation/test (1).jpg">
+  <img src="/simulation/test (1).JPG">
 </p>
 <p align="center">
-  <img src="/simulation/test (2).jpg">
+  <img src="/simulation/test (2).JPG">
 </p>
 <p align="center">
-  <img src="/simulation/test (3).jpg">
-</p>
-
-<p align="center">
-  <img src="/simulation/test (4).jpg">
+  <img src="/simulation/test (3).JPG">
 </p>
 <p align="center">
-  <img src="/simulation/test (5).jpg">
+  <img src="/simulation/test (4).JPG">
 </p>
 <p align="center">
-  <img src="/simulation/test (6).jpg">
+  <img src="/simulation/test (5).JPG">
 </p>
 <p align="center">
-  <img src="/simulation/test (7).jpg">
+  <img src="/simulation/test (6).JPG">
 </p>
 <p align="center">
-  <img src="/simulation/test (8).jpg">
+  <img src="/simulation/test (7).JPG">
 </p>
 <p align="center">
-  <img src="/simulation/test (9).jpg">
+  <img src="/simulation/test (8).JPG">
 </p>
 <p align="center">
-  <img src="/simulation/test (10).jpg">
+  <img src="/simulation/test (9).JPG">
 </p>
 <p align="center">
-  <img src="/simulation/test (11).jpg">
+  <img src="/simulation/test (10).JPG">
+</p>
+<p align="center">
+  <img src="/simulation/test (11).JPG">
 </p>
 
