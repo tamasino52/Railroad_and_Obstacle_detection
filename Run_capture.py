@@ -194,8 +194,11 @@ def box_to_color_map(boxes=None, scores=None, final_img=None, min_score_thresh=0
             print('top ', top, ' / left ', left, ' / bottom ', bottom, ' / right ', right)
             print('xmin ', xmin, ' / xmax ', xmax, ' / ymin ', ymin, ' / ymax ', ymax)
             print('pixel_sum ', pixel_sum, ' / average value ', pixel_sum/(right-left))
-
-            danger_score = pixel_sum / max(right - left  + 1, 1)  # Average value
+            if right-left > bottom - top:
+                danger_weight = 1.3
+            else:
+                danger_weight = 0.7
+            danger_score = danger_weight * pixel_sum / max(right - left + 1, 1)  # Average value
             if danger_score > danger_tresh:
                 danger_color = 'red'  # Danger color
             elif danger_score > caution_tresh:
