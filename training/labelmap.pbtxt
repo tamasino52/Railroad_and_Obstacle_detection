@@ -1,0 +1,19 @@
+item {
+  id: 1
+  name: 'people'
+}
+
+item {
+  id: 2
+  name: 'web'
+}
+
+item {
+  id: 3
+  name: 'tree'
+}
+
+item {
+  id: 4
+  name: 'box'
+}
