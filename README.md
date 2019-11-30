@@ -32,13 +32,15 @@ I recommand to activate this code on virtual anaconda setting.
 1. Clone our git first
 https://github.com/tamasino52/Real-time-image-based-obstacle-detection-and-identification-system-using-deep-learning-on-railroad
 2. Clone https://github.com/tensorflow/models git
-3. Move our all file to 'models/research/object_detection'
-4. Download faster_rcnn_inception_v2_coco_2018_01_28 model from https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
-5. Move model file to 'faster_rcnn_inception_v2_coco_2018_01_28' folder in 'models/research/object_detection'
-6. Run 'RailwayTrackingModel_Training.ipynb' file to generate model
-7. Run 'ObstacleDetectionModel_Training.ipynb' file to generate seccond model
-8. Run 'Run.py' file(for video and image) or 'Run.ipynb' file(only for image)  to activate project
-8-1. If you want to use captured image, Run 'Run_capture.py'. After you run, Click and Drag points that you want to capture. Then check your valid yellow box, press 'esc' to activate project.
+3. Download trained Unet model from (Put file in models/research/object_detection/models )
+https://drive.google.com/open?id=1fcCa7Z-Vt06H6o39b1tnCFILtsP1ckJf
+4. Move our all file to 'models/research/object_detection'
+5. Download faster_rcnn_inception_v2_coco_2018_01_28 model from https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
+6. Move model file to 'faster_rcnn_inception_v2_coco_2018_01_28' folder in 'models/research/object_detection'
+7. Run 'RailwayTrackingModel_Training.ipynb' file to generate model
+8. Run 'ObstacleDetectionModel_Training.ipynb' file to generate seccond model
+9. Run 'Run.py' file(for video and image) or 'Run.ipynb' file(only for image)  to activate project
+9-1. If you want to use captured image, Run 'Run_capture.py'. After you run, Click and Drag points that you want to capture. Then check your valid yellow box, press 'esc' to activate project.
 
 # Simulation Result
 <p align="center">
