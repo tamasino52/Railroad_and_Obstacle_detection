@@ -25,7 +25,7 @@ https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Trai
 **Time Estimated**: 8 hours
 
 By: Kim Minseok, Department of Software in Soongsil University / 
- Lee Juhui, Department of Software in Soongsil University
+ Lee Juhee, Department of Software in Soongsil University
 
 ## Setting for training
 Our project based on **anaconda, tensorflow-gpu, jupyter notebook** and etc. So you have to install these first.
