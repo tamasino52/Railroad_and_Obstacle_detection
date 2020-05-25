@@ -81,3 +81,5 @@ https://drive.google.com/open?id=1fcCa7Z-Vt06H6o39b1tnCFILtsP1ckJf
   <img src="/simulation/test (11).JPG">
 </p>
 
+## Postscript
+- If you are looking at this repo because you are interested in predicting railway, please refer to it here because a better version has been released than here. This <a href="https://github.com/tamasino52/Railway_detection">repository</a> only predicted with computer vision technology. But this is much faster and more accurate. 
