@@ -37,7 +37,7 @@ I recommand to activate this code on virtual anaconda setting.
 https://github.com/tamasino52/Railroad_and_Obstacle_detection
 2. Clone https://github.com/tensorflow/models git
 3. Download trained Unet model from (Put file in models/research/object_detection/models )
-https://drive.google.com/open?id=1fcCa7Z-Vt06H6o39b1tnCFILtsP1ckJf
+https://drive.google.com/file/d/18Y_EbJV9s4eJmFDg69uH46xgynHb9vNl/view?usp=sharing
 4. Move our all file to 'models/research/object_detection'
 5. Download faster_rcnn_inception_v2_coco_2018_01_28 model from https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
 6. Move model file to 'faster_rcnn_inception_v2_coco_2018_01_28' folder in 'models/research/object_detection'
