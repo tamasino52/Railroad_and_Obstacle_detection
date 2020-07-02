@@ -34,7 +34,7 @@ I recommand to activate this code on virtual anaconda setting.
 
 ## How to run
 1. Clone our git first
-https://github.com/tamasino52/Real-time-image-based-obstacle-detection-and-identification-system-using-deep-learning-on-railroad
+https://github.com/tamasino52/Railroad_and_Obstacle_detection
 2. Clone https://github.com/tensorflow/models git
 3. Download trained Unet model from (Put file in models/research/object_detection/models )
 https://drive.google.com/open?id=1fcCa7Z-Vt06H6o39b1tnCFILtsP1ckJf
