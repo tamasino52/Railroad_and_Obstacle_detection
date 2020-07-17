@@ -1,5 +1,5 @@
 # Project General Outline
-[![HitCount](http://hits.dwyl.com/tamasino52/https://githubcom/tamasino52/Railroad_and_Obstacle_detection.svg)](http://hits.dwyl.com/tamasino52/https://githubcom/tamasino52/Railroad_and_Obstacle_detection)<br>
+[![HitCount](http://hits.dwyl.com/tamasino52/ Railroad_and_Obstacle_detection.svg)](http://hits.dwyl.com/tamasino52/ Railroad_and_Obstacle_detection)<br>
 This project is an ongoing project with the support of Spartan SW project to study **Computer Vision of Soongsil University**. The objective of the project is to improve problem resolution and understanding of the model by using a variety of deep learning models to meet the challenges faced in the field.
 
 **Our topic is to install a camera on the front of the train to detect tracks and obstacles.** The system is designed to minimize casualties and property damage by sending a signal to the engineer when the detected obstacle is on the track and there is a possibility of serious casualties or equipment damage in the event of a collision. For this purpose, the image of the track and the masked data were studied to create a **Segmentation Model**. Also we selected **Object Detection Deep Learning Model** to recognize obstacle.
